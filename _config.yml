@@ -169,10 +169,6 @@ content:
       - English: Avanced Professional Working Proficiency
       - Portuguese: Intermediate Working Proficiency
 
-  - title: Tech Knowledge
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-
 
   - title: A Little More About Me
     layout: text
