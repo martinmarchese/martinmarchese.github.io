@@ -1,0 +1,198 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Martin Marchese
+title: Software Engineer - Technical Product Owner
+email: martinmarchese@gmail.com
+website: https://martinmarchese.ar
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: martinmarchese
+github_username:  martinmarchese
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: martinmarchese
+linkedin_username: martin-marchese-2ab44a20
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Martin and I'm a software engineer working as a technical product owner. Although my current job is on product management, I haven't given up on my passion for coding.
+
+  Download my detailed resume in PDF format: [Martin's Resume](https://github.com/martinmarchese/martinmarchese/raw/main/.github/files/martin-resume.pdf)
+
+# Apart from computers and technology I love <mark>music</mark>, <mark>playing guitar</mark> and <mark>cooking</mark>.
+
+content:
+  #- title: Projects # Title for the section
+  #  layout: list # Type of content section (list/text)
+  #  content:
+  #    - layout: top-middle
+  #      title: Super awesome project
+  #      link: github.com/sproogen
+  #      # link_text: Project Website
+  #      additional_links:
+  #        - title:  sproogen/modern-resume-theme
+  #          icon: fab fa-github
+  #          url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #      quote: >
+  #        This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #      description: | # this will include new lines to allow paragraphs
+  #        I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Roche Sequencing Solutions
+        link: https://sequencing.roche.com/
+        # link_text: boringcompany.com
+        sub_title: Technical Product Owner
+        caption: March 2019 - Present
+        quote: >
+          Software for the Biotech Industry 
+        description: | # this will include new lines to allow paragraphs
+            I'm a product owner working in the Argentina site. I work side by side with stakeholders in order to gather requirements and write detailed epics and user stories. My tech background helps me in the proper interpretation of business requirements and translating them into tech requirements.
+      
+      - layout: left
+        title: Identicum
+        link: https://www.identicum.com/
+        # link_text: boringcompany.com
+        sub_title: IDM Consultant - Team Leader and PM
+        caption: December 2009 - March 2019
+        quote: >
+          Identity Management Solutions 
+        description: | # this will include new lines to allow paragraphs
+            Started as a Jr. Consultant in 2009, this job gave me most of my experience working with big customers and learning how to understand their businesses and needs. Ended in 2019 as a Team leader with 2+ direct reports and leading project in multiple countries (US, Brazil, Mexico).
+            - Jr. Consultant (2009-2011) 
+            - SSr. Consultant (2011-2013)
+            - Sr. Conultant and Team Leader (2013-2019)
+
+      - layout: left
+        title: Freelance Web Developer
+        # link_text: boringcompany.com
+        sub_title: Web Developer
+        caption: December 2005 - March 2009
+        quote: >
+          Web Site Development 
+        description: | # this will include new lines to allow paragraphs
+            My first job during college. Developed small corporate presence sites for multiple customers. As my first job I started learning about the responsibility of delivering quality products to the customer.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Universidad de Belgrano
+        caption: 2013
+        sub_title: Postgraduate Degree 
+        #quote: >
+        # desc
+        description: | # this will include new lines to allow paragraphs
+          Project Management posgraduate degree, based on PMI PMBok
+
+      - layout: left
+        title: Pontificia Universidad Católica Argentina
+        caption: 2004-2015
+        sub_title: College Degree 
+        #quote: >
+        # desc
+        description: | # this will include new lines to allow paragraphs
+          Computers Engineering Degree 
+
+      - layout: left
+        title: Colegio Hans Christian Andersen
+        caption: 1999-2003
+        sub_title: High School Degree
+        #quote: >
+        # desc
+        description: | # this will include new lines to allow paragraphs
+          High School Degree @ Colegio Hans Christian Andersen
+  
+  - title: Workshops & Certifications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Certified SAFe 5 Agilist @ Scaled Agile Inc. (2020)
+      - Product Owner and Agile Methodologies @ Universidad Tecnológica Nacional (2019)
+      - Time Management (12 hs) @ Educación BIZ (2018)
+      - Personal Leadership (12 hs) @ Educación BIZ (2017)
+      - Negotiation and Effective Communication (12 hs) @ Educacion BIZ (2017)
+      - Scrum Framework Workshop (12 hs) @ Educación IT - (2015)
+      - Novell Identity Specialist Certification @ Novell (2010)
+      - Oratory Workshop @ Universidad de Palermo (provided by OpenApp Challenge contest).
+
+  - title: Ventures
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      2011 - 2013 - Co-Founder, PHP Developer and PM @ Gibeet
+      - Crowdfounding startup focused on raising funds for Non-Profit and Charity Foundations.
+      - Gibeet got into the finals of Movistar’s OpenApp Challenge 2012 (local contest for startups) where I co-presented the elevator’s pitch.
+      - The site (www.gibeet.com) was live from 2011 to 2013.
+
+  - title: Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Spanish: Native
+      - English: Avanced Professional Working Proficiency
+      - Portuguese: Intermediate Working Proficiency
+
+  - title: Tech Knowledge
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in the tech industry:
+      - Music
+      - Guitar Playing
+      - Cooking
+      - Science
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
